@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IM</string>
+    <string name="net_state">请检查你的网络</string>
+    <string name="show_login">正在登陆</string>
+    <string name="show_login_error">登陆失败</string>
+    <string name="system_login">系统登录</string>
+    <string name="user_name">输入账号</string>
+    <string name="user_password">输入密码</string>
+    <string name="user_password_auth">再次输入密码</string>
+    <string name="user_register">用户注册</string>
+    <string name="btn_confirm">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="txt_hint">请输入消息</string>
+    <string name="btn_send">发送</string>
+    <string name="btn_wrap">附件</string>
+    <string name="tab_contact">消息</string>
+    <string name="tab_list">好友</string>
+    <string name="tab_set">设置</string>
+    <string name="show_load">正在加载</string>
+    
+    <string name="desc_state">用户状态显示</string>
+    <string name="exit_notification">再按一次退出程序</string>
+    <string name="has_logged">账号已经登录</string>
+    
+    <string name="refreshtime">上次更新时间:</string>
+    <string name="nomoredata">没有更多数据了</string>
+    
+    <string name="login_form">登录</string>
+    <string name="register_form">注册</string>
+    
+    <string name="rl_selfinfo">个人信息</string>
+    <string name="rememberaccount">记住账号和密码</string>
+    <string name="isornotonline">在线</string>
+    <string name="opennotify">开启提示</string>
+    <string name="cacheclear">记录清除</string>
+    <string name="logout">退出系统</string>
+    <string name="delete_friend">删除联系人</string>
+    <string name="showinfo_friend">查看联系人</string>
+    <string name="cancel_click">取消点击</string>
+    <string name="message_succeed">消息发送失败</string>
+    <string name="set_notifacation">设置失败</string>
+    <string name="clear_notifacation">记录清除成功</string>
+    
+    <string name="account_existent">账号已经存在</string>
+    <string name="server_noresponse">服务器无响应</string>
+    <string name="register_succeed">注册成功</string>
+    <string name="register_error">注册失败</string>
+    <string name="registerdata_error">注册数据有误</string>
+    <string name="search_friends">搜加好友</string>
+    <string name="friends_id">好友ID</string>
+    <string name="friends_add">好友请求提示</string>
+    <string name="reject_add_friend">拒绝</string>
+    <string name="nice_add_friend">同意</string>
+    <string name="message_send">发送消息</string>
+    
+    <string name="nick_modify">修改昵称</string>
+    <string name="modifyinfo">:修改昵称为</string>
+    <string name="is_delete">是否要删除</string>
+    
+    <string name="hold_record">按住录音</string>
+    <string name="state_error">状态有误</string>
+    <string name="frind_request">好友请求发送成功</string>
+    <string name="frind_request_error">好友请求发送失败</string>
+    <string name="soundfile_error">可能声音文件丢失</string>
+    
+</resources>

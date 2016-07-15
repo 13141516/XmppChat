@@ -1,0 +1,4 @@
+INSERTSQL=insert into contact(_id,lastmessage,date,state,dataType) values(?,?,?,?,?)
+FINDALLSQL=select _id,lastmessage,date,state,dataType from contact
+FINDSINGLESQL=select _id,lastmessage,date,state,dataType from contact where _id=?
+DELETEALLSQL=delete from contact 

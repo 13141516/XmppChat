@@ -1,0 +1,4 @@
+CREATETABLEDATA=create table data(_id integer PRIMARY KEY AUTOINCREMENT,come VARCHAR(20),tosomebody VARCHAR(20),body Text,longdate integer,direct integer,dataType int)
+CREATETABLECONTACT=create table contact(_id VARCHAR(20) PRIMARY KEY,lastmessage Text,date Text,state integer,dataType int)
+DROPDATA="drop table if exists data"
+DROPCONTACT="drop table if exists contact"

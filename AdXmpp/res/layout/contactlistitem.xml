@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <FrameLayout
+        android:id="@+id/fl_contactitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/iv_personimage"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:contentDescription="@string/desc_state"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tv_messagenumber"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="60dp"
+            android:background="@android:color/holo_blue_bright"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_shortmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/fl_contactitem"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#6f6f6f"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_messagetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toStartOf="@id/tv_shortmessage"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#706f6f"
+        android:textSize="16sp" />
+
+</RelativeLayout>

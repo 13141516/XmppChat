@@ -1,0 +1,3 @@
+INSERTSQL=insert into data(come,tosomebody,body,longdate,direct,dataType) values(?,?,?,?,?,?)
+FINDSOMESQL=select come,tosomebody,body,longdate,direct,dataType from data where tosomebody=? order by longdate desc limit ?,?
+DELETEALLSQL=delete from data

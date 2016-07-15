@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group>
+        <item
+            android:id="@+id/account_delete"
+            android:title="@string/delete_friend"/>
+        <item
+            android:id="@+id/nick_modify"
+            android:title="@string/nick_modify"/>
+        <item
+            android:id="@+id/click_cancel"
+            android:title="@string/cancel_click"/>
+    </group>
+
+</menu>
